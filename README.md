@@ -8,6 +8,7 @@ $$(1) ~~~~~~~~ \frac{\dot{a}^2}{a^2} = \frac{8 \pi G}{3} \rho - \frac{k}{a^2} + 
 $$(2) ~~~~~~~~ \frac{\ddot{a}}{a} = - \frac{4 \pi G}{3} (\rho + 3P) + \frac{\Lambda}{3}$$
 
 but we also can specify the law of continuity : $\dot{\rho} = -3 \frac{\dot{a}}{a}(\rho + P) ~~~~~~ (3)$
+
 So from these equations, we're going to compute the numerical solution from a differential equation we're going to derivate.
 
 We also can consider others parameters such as the Hubble constant : $H_0 = H(0) = \frac{\dot{a}(0)}{a(0)}$,
