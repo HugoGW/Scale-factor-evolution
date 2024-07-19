@@ -30,7 +30,7 @@ $$H^2(t) = \frac{8\pi G}{3} \bigg( \rho(t) - \frac{3k}{8\pi G a^2(t)} \bigg)$$
 
 But $\rho(t) \gg \frac{3k}{8\pi G a^2(t)}$ so we can consider that $H^2(t) = \frac{8\pi G}{3} \rho(t)$ and we remember that $\Omega = \frac{\rho(t)}{\rho_c} = \frac{8 \pi G \rho(t)}{3 H^2_0}$.
 
-We can rearrange $\Omega_M =  \frac{8 \pi G}{3 H^2_0} \rho_M(t) = \frac{\rho_M(t)}{\rho_{0,c}} = \frac{\rho_M(t)}{\rho_M(t_0) \frac{\rho_M(t_0)}{\rho_{0,c}} = a^{-3}(t)\Omega_{M,0} = \Omega_{M,0} a^{-3}(t)$.
+We can rearrange $\Omega_M =  \frac{8 \pi G}{3 H^2_0} \rho_M(t) = \frac{\rho_M(t)}{\rho_{0,c}} = \frac{\rho_M(t)}{\rho_M(t_0)} \frac{\rho_M(t_0)}{\rho_{0,c}} = a^{-3}(t)\Omega_{M,0} = \Omega_{M,0} a^{-3}(t)$.
 
 Then, $\rho_M(t) = \frac{3 H_0^2}{8 \pi G}\Omega_{M,0} a^{-3}(t)$ and we can do the same for the other consituants : 
 
