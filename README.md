@@ -40,7 +40,7 @@ $\rho_k(t) = \frac{3 H_0^2}{8 \pi G}\Omega_{k,0} a^{-2}(t)$
 
 $\rho_{\Lambda}(t) = \frac{3 H_0^2}{8 \pi G}\Omega_{\Lambda}$
 
-So, as $H^2(t) = \frac{8\piG}{3} \rho(t) \to H^2(t) = H_0^2\frac{8\piG}{3H_0^2} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rho_{\Lambda}(t)$
+So, as $H^2(t) = \frac{8\pi G}{3} \rho(t) \to H^2(t) = H_0^2\frac{8\pi G}{3H_0^2} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rho_{\Lambda}(t)$
 
 $$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rho_{\Lambda}(t)$$
 
