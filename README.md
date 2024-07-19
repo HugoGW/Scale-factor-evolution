@@ -26,9 +26,9 @@ For a Universe mainly constitutes of a certain content, the evolution of the sca
 
 Let’s start with the first Friedmann equation (written in terms of the Hubble parameter now).
 
-$$H^2(t) = \frac{8\pi G}{3} \big ( \rho(t) - \frac{3k}{8\pi G a^2(t)} \big)$$
+$$H^2(t) = \frac{8\pi G}{3} \bigg( \rho(t) - \frac{3k}{8\pi G a^2(t)} \bigg)$$
 
-But $\rho(t) \gg \frac{3k}{8\pi G a^2(t)$ so we can consider that $H^2(t) = \frac{8\piG}{3} \rho(t)$ and we remember that $\Omega = \frac{\rho(t)}{\rho_c} = \frac{8 \pi G \rho(t)}{3 H^2_0}$.
+But $\rho(t) \gg \frac{3k}{8\pi G a^2(t)}$ so we can consider that $H^2(t) = \frac{8\pi G}{3} \rho(t)$ and we remember that $\Omega = \frac{\rho(t)}{\rho_c} = \frac{8 \pi G \rho(t)}{3 H^2_0}$.
 
 We can rearrange $\Omega_M =  \frac{8 \pi G}{3 H^2_0} \rho_M(t) = \frac{\rho_M(t)}{\rho_{0,c} = \frac{\rho_M(t)}{\rho_M(t_0) \frac{\rho_M(t_0)}{\rho_{0,c} = a^{-3}(t)\Omega_{M,0} = \Omega_{M,0} a^{-3}(t)$.
 
