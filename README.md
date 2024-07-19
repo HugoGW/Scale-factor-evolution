@@ -22,11 +22,11 @@ For a Universe mainly constitutes of a certain content, the evolution of the sca
 
 - for the matter : $\Omega_0^M = \frac{\rho_M(0)}{\rho_{0,c}} \to \rho_M(t) \propto a(t)^{-3}$
 - for the radiation : $\Omega_0^R = \frac{\rho_R(0)}{\rho_{0,c}} \to \rho_R(t) \propto a(t)^{-4}$
-- for the dark energy : $\Omega_0^{\Lambda} = \frac{\rho_{\Lambda}(0)}{\rho_{0,c} = \frac{\Lambda c^2}{3H_0^2} \to \rho_{\Lambda}(t) \propto e^{\sqrt{\frac{\Lambda}{3}t}}$
+- for the dark energy : $\Omega_0^{\Lambda} = \frac{\rho_{\Lambda}(0)}{\rho_{0,c}} = \frac{\Lambda c^2}{3H_0^2} \to \rho_{\Lambda}(t) \propto e^{\sqrt{\frac{\Lambda}{3}t}}$
 
 Let’s start with the first Friedmann equation (written in terms of the Hubble parameter now).
 
-$$H^2(t) = \frac{8\piG}{3} \big ( \rho(t) - \frac{3k}{8\pi G a^2(t)} \big)$$
+$$H^2(t) = \frac{8\pi G}{3} \big ( \rho(t) - \frac{3k}{8\pi G a^2(t)} \big)$$
 
 But $\rho(t) \gg \frac{3k}{8\pi G a^2(t)$ so we can consider that $H^2(t) = \frac{8\piG}{3} \rho(t)$ and we remember that $\Omega = \frac{\rho(t)}{\rho_c} = \frac{8 \pi G \rho(t)}{3 H^2_0}$.
 
