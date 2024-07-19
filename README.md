@@ -12,7 +12,7 @@ but we also can specify the law of continuity : $\dot{\rho} = -3 \frac{\dot{a}}{
 So from these equations, we're going to compute the numerical solution from a differential equation we're going to derivate.
 
 We also can consider others parameters such as the Hubble constant : $H_0 = H(0) = \frac{\dot{a}(0)}{a(0)}$,
-the deceleration parameter $q_0 = q(0) = \bigg( \frac{\ddot{a}a}{\dot{a}^2} \bigg )^0$
+the deceleration parameter $q_0 = q(0) = \big( \frac{\ddot{a}a}{\dot{a}^2} \big )_0$
 and the critical density $\rho_c(0) = \rho_{c,0} = \frac{3 H_0^2}{8 \pi G}$
 
 $\textbf{II - Content components of the Universe}$
