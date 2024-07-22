@@ -49,7 +49,8 @@ $$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rh
 $$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\Omega_{M,0} a^{-3}(t) + \Omega_{R,0} a^{-4}(t) +  \Omega_{k,0} a^{-2}(t) + \Omega_{\Lambda} \big )$$
 
  $\textbf{III - Equations and numerical solving}$ 
-$\textbf{(1)}$ and (2) $\textbf{(2)}$ involve the first and second derivative of the scale factor. The aim is to combine these two equations to obtain a second order differential equation in matrix form. We introduce the normalized scale factor $\tilde{a}(t) = \frac{a(t)}{a_0}$. $\textbf{(1)}$ can be written as :
+$\textbf{(1)}$ and (2) $\textbf{(2)}$ involve the first and second derivative of the scale factor. The aim is to combine these two equations to obtain a second order differential equation in matrix form. We introduce the normalized scale factor $\tilde{a}(t) = \frac{a(t)}{a_0}$. 
+$\textbf{(1)}$ can be written as :
 
-
+$$ \ddot{\tilde{a}}(t) = - \frac{1}{2} \tilde{a} H_0^2 \Bigg( \frac{\Omega_{M,0}}{\tilde{a}^3} +2 \frac{\Omega_{R,0}}{\tilde{a}^4} -2\Omega_{\Lambda,0} \Bigg)$$
 
