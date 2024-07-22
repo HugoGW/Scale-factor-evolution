@@ -74,7 +74,7 @@ This ODE can be easily solved with the library $\textit{scipy.integrate}$ and in
                             Omega_r / y[0] ** 2 - Omega_l * y[0] ** 2 - Omega_k) ** (-1)]
         return dydt
 
-And we can plot it for several values of $\Omega_{M}, \Omega_{\Lambda}$ etc. According to the articles from $\textit{Planck 2018}$ and $\textit{SH0ES 2022}$ the cosmological values constraints $\tilde{a}$ :
+And we can plot it for several values of $\Omega_{M}, \Omega_{\Lambda}$ etc. According to the articles from $\textit{Planck 2018}$ and $\textit{SH0ES 2022}$ the cosmological values constraint $\tilde{a}$ :
 
 ![image](https://github.com/user-attachments/assets/84a8f641-a91b-49d2-9b20-f0932d749052)
 
