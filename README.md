@@ -5,6 +5,7 @@ $\textbf{I - Friedmann's equations}$
 In this paper, I won't do the derivation from the Einstein field equations $R_{\mu \nu} - \frac{1}{2} R g_{\mu \nu} + \Lambda g_{\mu \nu} = \frac{8 \pi G}{c^4} T_{\mu \nu}$ to the Friedmann's equations :
 
 $$(1) ~~~~~~~~ \frac{\dot{a}^2}{a^2} = \frac{8 \pi G}{3} \rho - \frac{k}{a^2} + \frac{\Lambda}{3}$$
+
 $$(2) ~~~~~~~~ \frac{\ddot{a}}{a} = - \frac{4 \pi G}{3} (\rho + 3P) + \frac{\Lambda}{3}$$
 
 but we also can specify the law of continuity : $\dot{\rho} = -3 \frac{\dot{a}}{a}(\rho + P) ~~~~~~ (3)$
@@ -12,7 +13,8 @@ but we also can specify the law of continuity : $\dot{\rho} = -3 \frac{\dot{a}}{
 So from these equations, we're going to compute the numerical solution from a differential equation we're going to derivate.
 
 We also can consider others parameters such as the Hubble constant : $H_0 = H(0) = \frac{\dot{a}(0)}{a(0)}$,
-the deceleration parameter $q_0 = q(0) = \big( \frac{\ddot{a}a}{\dot{a}^2} \big )_0$
+
+the deceleration parameter $q_0 = q(0) = \big( \frac{\ddot{a}a}{\dot{a}^2} \big )_0$ 
 
 and the critical density $\rho_c(0) = \rho_{c,0} = \frac{3 H_0^2}{8 \pi G}$
 
@@ -26,7 +28,7 @@ For a Universe mainly constitutes of a certain content, the evolution of the sca
 
 Let’s start with the first Friedmann equation (written in terms of the Hubble parameter now).
 
-$$H^2(t) = \frac{8\pi G}{3} \bigg( \rho(t) - \frac{3k}{8\pi G a^2(t)} \bigg)$$
+$$H^2(t) = \frac{8\pi G}{3} \bigg( \rho(t) - \frac{3k}{8\pi G a^2(t)} \bigg ) $$
 
 But $\rho(t) \gg \frac{3k}{8\pi G a^2(t)}$ so we can consider that $H^2(t) = \frac{8\pi G}{3} \rho(t)$ and we remember that $\Omega = \frac{\rho(t)}{\rho_c} = \frac{8 \pi G \rho(t)}{3 H^2_0}$.
 
@@ -40,11 +42,11 @@ $\rho_k(t) = \frac{3 H_0^2}{8 \pi G}\Omega_{k,0} a^{-2}(t)$
 
 $\rho_{\Lambda}(t) = \frac{3 H_0^2}{8 \pi G}\Omega_{\Lambda}$
 
-So, as $H^2(t) = \frac{8\pi G}{3} \rho(t) \to H^2(t) = H_0^2\frac{8\pi G}{3H_0^2} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rho_{\Lambda}(t)$
+So, as $H^2(t) = \frac{8\pi G}{3} \rho(t) \to H^2(t) = H_0^2\frac{8\pi G}{3H_0^2} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rho_{\Lambda}(t) \big )$
 
-$$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rho_{\Lambda}(t)$$
+$$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\rho_M(t) + \rho_R(t) +  \rho_k(t) + \rho_{\Lambda}(t)\big )$$
 
-$$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\Omega_{M,0} a^{-3}(t) + \Omega_{R,0} a^{-4}(t) +  \Omega_{k,0} a^{-2}(t) + \Omega_{\Lambda}$$
+$$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\Omega_{M,0} a^{-3}(t) + \Omega_{R,0} a^{-4}(t) +  \Omega_{k,0} a^{-2}(t) + \Omega_{\Lambda} \big )$$
 
  $\textbf{III - Equations and numerical solving}$ 
 
