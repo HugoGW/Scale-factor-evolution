@@ -50,7 +50,30 @@ $$H(t)^2 = H_0^2 \frac{1}{\rho_c} \big (\Omega_{M,0} a^{-3}(t) + \Omega_{R,0} a^
 
  $\textbf{III - Equations and numerical solving}$ 
 $\textbf{(1)}$ and (2) $\textbf{(2)}$ involve the first and second derivative of the scale factor. The aim is to combine these two equations to obtain a second order differential equation in matrix form. We introduce the normalized scale factor $\tilde{a}(t) = \frac{a(t)}{a_0}$. 
+
 $\textbf{(1)}$ can be written as :
 
-$$ \ddot{\tilde{a}}(t) = - \frac{1}{2} \tilde{a} H_0^2 \Bigg( \frac{\Omega_{M,0}}{\tilde{a}^3} +2 \frac{\Omega_{R,0}}{\tilde{a}^4} -2\Omega_{\Lambda,0} \Bigg)$$
+$$(4) ~~~~~~~~ \ddot{\tilde{a}} = - \frac{1}{2} \tilde{a} H_0^2 \Bigg( \frac{\Omega_{M,0}}{\tilde{a}^3} +2 \frac{\Omega_{R,0}}{\tilde{a}^4} -2\Omega_{\Lambda,0} \Bigg)$$
+
+and $\textbf{(2)}$ :
+
+$$ (5) ~~~~~~~~ \tilde{a} = \Omega_{M,0} \Bigg( \frac{\dot{\tilde{a}}^2}{H_0^2} - \frac{\Omega_{R,0}}{\tilde{a}^2} -\tilde{a}^2 \Omega_{\Lambda,0} - \Omega_{k,0}\Bigg)^{-1}$$
+
+Where $\Omega_{M,0} + \Omega_{R,0} + \Omega_{\Lambda,0} + \Omega_{k,0} = 1$
+
+We inject the 2 new equations $\textbf{(4)}$ and $\textbf{(5)}$ into each other to obtain a new differential equation describing the evolution of the normalised scale factor :
+
+$$ \ddot{\tilde{a}} = - \frac{1}{2} \Omega_{M,0} \Bigg( \frac{\dot{\tilde{a}}^2}{H_0^2} - \frac{\Omega_{R,0}}{\tilde{a}^2} -\tilde{a}^2 \Omega_{\Lambda,0} - \Omega_{k,0}\Bigg)^{-1} H_0^2 \Bigg( \frac{\Omega_{M,0}}{\tilde{a}^3} +2 \frac{\Omega_{R,0}}{\tilde{a}^4} -2\Omega_{\Lambda,0} \Bigg)$$
+
+This ODE can be easily solved with the library $\textit{scipy.integrate}$ and in the code, this ODE is given by the function :
+
+    def syseq(y, t, Omega_m, Omega_r, Omega_l, Omega_k, H0):
+        dydt = [y[1],
+                (-(H0 ** 2 / 2) * (Omega_m / y[0] ** 3 + 2 * Omega_r / y[0] ** 4 - 2 * Omega_l)) * Omega_m * (
+                            1 / (H0 ** 2) * y[1] ** 2 -
+                            Omega_r / y[0] ** 2 - Omega_l * y[0] ** 2 - Omega_k) ** (-1)]
+        return dydt
+
+And we can plot it for several values of $\Omega_{M}, \Omega_{\Lambda}$ etc. According to the articles from $\textit{Planck 2018}$ and $\textit{SH0ES 2022}$ the cosmological values constraints $\tilde{a}$ :
+
 
